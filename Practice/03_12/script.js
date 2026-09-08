@@ -6,3 +6,14 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import LaptopBag from "./LaptopBag.js";
+
+const laptopBag = new LaptopBag("laptoppy", 20, "blue", 2, 25, 26, true, false);
+
+console.log(laptopBag.laptopInBag);
+laptopBag.toggleLaptopInBag();
+console.log(laptopBag.laptopInBag);
+laptopBag.toggleLaptopInBag();
+laptopBag.toggleLaptopInBag();
+console.log(laptopBag.laptopInBag);

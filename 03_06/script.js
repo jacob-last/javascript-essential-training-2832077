@@ -22,3 +22,6 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+console.log("The pocketNum value:", backpack.pocketNum);
+console.log("The right strap length (using dot notation - which is prefferred):", backpack.strapLength.right)
+console.log("The right strap length (using bracket notation):", backpack["strapLength"]["right"])
