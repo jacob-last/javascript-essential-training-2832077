@@ -22,3 +22,36 @@ body {
   height: 6rem;
   background-color: hsl(0, 0%, 90%);
 }
+
+.colour1 {
+  background-color: red;
+}
+
+.colour2 {
+  background-color: orange;
+}
+
+.colour3 {
+  background-color: yellow;
+}
+
+.colour4 {
+  background-color: green;
+}
+
+.colour5 {
+  background-color: blue;
+}
+
+.colour6 {
+  background-color: indigo;
+}
+
+.colour7 {
+  background-color: violet;
+}
+
+.border {
+  border: 5px solid black;
+  box-sizing: border-box;
+}
