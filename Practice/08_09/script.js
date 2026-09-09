@@ -57,3 +57,30 @@ const content = `
       }</span></li>
     </ul>  
 `;
+
+// My code
+
+const populateArticle = function (article2, content2) {
+  article2.innerHTML = content2
+}
+
+const createFigure = function (object2) {
+  let image = document.createElement("img")
+  image.setAttribute("src", object2.image)
+  return image
+}
+
+const main = function (obj) {
+  let article = document.createElement("article")
+  populateArticle(article, content)
+  let figure = createFigure(obj)
+  article.append(figure)
+  return article
+}
+
+const addToMain = function (thing) {
+  document.querySelector("main").append(thing)
+}
+
+let article2 = main(frogpack)
+addToMain(article2)
